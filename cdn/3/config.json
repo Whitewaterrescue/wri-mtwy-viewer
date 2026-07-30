@@ -1279,12 +1279,12 @@
           "type": "WIDGET",
           "widgetId": "widget_218",
           "bbox": {
-            "left": "53.2%",
-            "right": "40.3%",
-            "top": "23.5%",
-            "bottom": "44.5%",
-            "width": "6.5%",
-            "height": "32.0%"
+            "left": "60.0%",
+            "right": "26.0%",
+            "top": "6.0%",
+            "bottom": "54.0%",
+            "width": "14.0%",
+            "height": "40.0%"
           },
           "setting": {
             "autoProps": {
@@ -1301,12 +1301,12 @@
           "type": "WIDGET",
           "widgetId": "widget_259",
           "bbox": {
-            "left": "66.8%",
-            "right": "26.7%",
-            "top": "23.4%",
-            "bottom": "44.6%",
-            "width": "6.5%",
-            "height": "32.1%"
+            "left": "60.0%",
+            "right": "26.0%",
+            "top": "54.0%",
+            "bottom": "6.0%",
+            "width": "14.0%",
+            "height": "40.0%"
           },
           "setting": {
             "autoProps": {
