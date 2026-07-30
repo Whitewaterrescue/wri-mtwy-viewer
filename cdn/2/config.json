@@ -56,47 +56,18 @@
       "header": false,
       "footer": false
     },
-    "page_8": {
-      "id": "page_8",
+    "page_11": {
+      "id": "page_11",
       "mode": "FIT_WINDOW",
       "type": "NORMAL",
       "layout": {
-        "LARGE": "layout_53",
-        "MEDIUM": "layout_58",
-        "SMALL": "layout_63"
+        "LARGE": "layout_98"
       },
       "isDefault": false,
       "isVisible": false,
-      "label": "Wildfire Map",
-      "header": true
-    },
-    "page_9": {
-      "id": "page_9",
-      "mode": "FIT_WINDOW",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_68",
-        "MEDIUM": "layout_73",
-        "SMALL": "layout_78"
-      },
-      "isDefault": false,
-      "isVisible": false,
-      "label": "FRP Map",
-      "header": true
-    },
-    "page_10": {
-      "id": "page_10",
-      "mode": "FIT_WINDOW",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_83",
-        "MEDIUM": "layout_88",
-        "SMALL": "layout_93"
-      },
-      "isDefault": false,
-      "isVisible": false,
-      "label": "Trailer Inspections",
-      "header": true
+      "label": "MT/WY Coop Trailers",
+      "header": true,
+      "footer": false
     }
   },
   "layouts": {
@@ -289,12 +260,6 @@
           "bbox": {},
           "setting": {}
         },
-        "10": {
-          "type": "WIDGET",
-          "widgetId": "widget_261",
-          "bbox": {},
-          "setting": {}
-        },
         "16": {
           "type": "WIDGET",
           "widgetId": "widget_285",
@@ -322,10 +287,6 @@
         "21": {
           "type": "WIDGET",
           "widgetId": "widget_292"
-        },
-        "22": {
-          "type": "WIDGET",
-          "widgetId": "widget_294"
         }
       },
       "type": "FIXED",
@@ -337,13 +298,11 @@
         "6",
         "8",
         "9",
-        "10",
         "16",
         "17",
         "19",
         "20",
-        "21",
-        "22"
+        "21"
       ]
     },
     "layout_7": {
@@ -1316,48 +1275,6 @@
             "hCenter": false
           }
         },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_136",
-          "bbox": {
-            "left": "46.4%",
-            "right": "47.1%",
-            "top": "23.3%",
-            "bottom": "44.9%",
-            "width": "6.5%",
-            "height": "31.8%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": true,
-              "left": false,
-              "top": false,
-              "bottom": true
-            }
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_137",
-          "bbox": {
-            "left": "60.0%",
-            "right": "33.5%",
-            "top": "23.1%",
-            "bottom": "45.2%",
-            "width": "6.5%",
-            "height": "31.7%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
         "6": {
           "type": "WIDGET",
           "widgetId": "widget_218",
@@ -1429,8 +1346,6 @@
       },
       "order": [
         "2",
-        "4",
-        "5",
         "6",
         "7",
         "8"
@@ -7155,6 +7070,58 @@
       "order": [
         "4"
       ]
+    },
+    "layout_98": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_295",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "3.6%",
+            "width": "100.0%",
+            "height": "96.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_296",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "96.4%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "3.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
     }
   },
   "exbVersion": "1.20.0",
@@ -11506,84 +11473,6 @@
       "useMapWidgetIds": [
         "widget_1"
       ]
-    },
-    "widget_136": {
-      "uri": "widgets/common/button/",
-      "version": "1.20.0",
-      "label": "WIldfire",
-      "config": {
-        "functionConfig": {
-          "text": "Wildfire Map",
-          "toolTip": "",
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "page_8",
-            "openType": "_self"
-          },
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "danger"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "background": {
-                "color": "var(--danger-900)",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "background": {
-                "color": "var(--dark)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_136",
-      "useDataSourcesEnabled": false,
-      "useDataSources": []
-    },
-    "widget_137": {
-      "uri": "widgets/common/button/",
-      "version": "1.20.0",
-      "label": "FRPs",
-      "config": {
-        "functionConfig": {
-          "text": "FRP Map",
-          "textExpression": null,
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "page_9",
-            "openType": "_self"
-          }
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "danger"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "background": {
-                "color": "var(--danger-900)",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "background": {
-                "color": "#000000",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_137",
-      "useDataSources": []
     },
     "widget_138": {
       "uri": "widgets/common/menu/",
@@ -20126,14 +20015,14 @@
     "widget_259": {
       "uri": "widgets/common/button/",
       "version": "1.20.0",
-      "label": "Button 64",
+      "label": "MT/WY Coop Trailers",
       "config": {
         "functionConfig": {
-          "text": "Trailer Inspections",
+          "text": "MT/WY Coop Trailers",
           "textExpression": null,
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_10",
+            "value": "page_11",
             "openType": "_self"
           }
         },
@@ -20158,510 +20047,6 @@
       },
       "id": "widget_259",
       "useDataSources": []
-    },
-    "widget_261": {
-      "uri": "widgets/common/search/",
-      "version": "1.20.0",
-      "label": "Asset Search",
-      "config": {
-        "searchResultView": "Result_Panel",
-        "arrangementStyle": "Style1",
-        "searchResultStyle": "Classic",
-        "maxSuggestions": 6,
-        "recentSearchesMaxNumber": 6,
-        "resultMaxNumber": 6,
-        "enableFiltering": true,
-        "sourceType": "CustomSearchSources",
-        "dataSourceConfigWithMapCentric": null,
-        "datasourceConfig": [
-          {
-            "configId": "config_0",
-            "icon": null,
-            "label": "Oil Spill Assets",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-1973374268b-layer-272",
-              "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-1973374268b-layer-272",
-              "rootDataSourceId": "dataSource_22",
-              "fields": [
-                "AssetNum",
-                "Current_Location",
-                "Unnamed__0",
-                "Latitude",
-                "Longitude",
-                "wrrl_num"
-              ]
-            },
-            "displayFields": [
-              {
-                "jimuName": "Unnamed__0",
-                "name": "Unnamed__0",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Unnamed: 0"
-              },
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              },
-              {
-                "jimuName": "Latitude",
-                "name": "Latitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Latitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              },
-              {
-                "jimuName": "Longitude",
-                "name": "Longitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Longitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              },
-              {
-                "jimuName": "wrrl_num",
-                "name": "wrrl_num",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "wrrl_num"
-              }
-            ],
-            "searchFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              }
-            ],
-            "hint": "",
-            "searchServiceType": "FeatureService",
-            "searchExact": false,
-            "searchInCurrentMapExtent": false
-          },
-          {
-            "configId": "config_1",
-            "icon": null,
-            "label": "Site Specific Assests",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742689-layer-271",
-              "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742689-layer-271",
-              "rootDataSourceId": "dataSource_22",
-              "fields": [
-                "AssetNum",
-                "Current_Location",
-                "Latitude",
-                "Longitude"
-              ]
-            },
-            "displayFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              },
-              {
-                "jimuName": "Latitude",
-                "name": "Latitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Latitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              },
-              {
-                "jimuName": "Longitude",
-                "name": "Longitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Longitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              }
-            ],
-            "searchFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              }
-            ],
-            "hint": "",
-            "searchServiceType": "FeatureService",
-            "searchExact": false,
-            "searchInCurrentMapExtent": false
-          },
-          {
-            "configId": "config_2",
-            "icon": null,
-            "label": "Fire Assets",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742688-layer-270",
-              "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742688-layer-270",
-              "rootDataSourceId": "dataSource_22",
-              "fields": [
-                "AssetNum",
-                "Current_Location",
-                "Latitude",
-                "Longitude"
-              ]
-            },
-            "displayFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              },
-              {
-                "jimuName": "Latitude",
-                "name": "Latitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Latitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              },
-              {
-                "jimuName": "Longitude",
-                "name": "Longitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Longitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              }
-            ],
-            "searchFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              }
-            ],
-            "hint": "",
-            "searchServiceType": "FeatureService",
-            "searchExact": false,
-            "searchInCurrentMapExtent": false
-          },
-          {
-            "configId": "config_3",
-            "icon": null,
-            "label": "Capping Kits",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742687-layer-269",
-              "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742687-layer-269",
-              "rootDataSourceId": "dataSource_22",
-              "fields": [
-                "AssetNum",
-                "Current_Location",
-                "Longitude",
-                "Latitude"
-              ]
-            },
-            "displayFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              },
-              {
-                "jimuName": "Longitude",
-                "name": "Longitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Longitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              },
-              {
-                "jimuName": "Latitude",
-                "name": "Latitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Latitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              }
-            ],
-            "searchFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              }
-            ],
-            "hint": "",
-            "searchServiceType": "FeatureService",
-            "searchExact": false,
-            "searchInCurrentMapExtent": false
-          },
-          {
-            "configId": "config_4",
-            "icon": null,
-            "label": "Other Assets",
-            "displayLabel": true,
-            "useDataSource": {
-              "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742686-layer-268",
-              "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742686-layer-268",
-              "rootDataSourceId": "dataSource_22",
-              "fields": [
-                "AssetNum",
-                "Current_Location",
-                "Latitude",
-                "Longitude"
-              ]
-            },
-            "displayFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              },
-              {
-                "jimuName": "Latitude",
-                "name": "Latitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Latitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              },
-              {
-                "jimuName": "Longitude",
-                "name": "Longitude",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Longitude",
-                "fieldFormat": {
-                  "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
-                  "style": "decimal",
-                  "useGrouping": "never"
-                }
-              }
-            ],
-            "searchFields": [
-              {
-                "jimuName": "AssetNum",
-                "name": "AssetNum",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "AssetNum"
-              },
-              {
-                "jimuName": "Current_Location",
-                "name": "Current_Location",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Current_Location"
-              }
-            ],
-            "hint": "",
-            "searchServiceType": "FeatureService",
-            "searchExact": false,
-            "searchInCurrentMapExtent": false
-          }
-        ],
-        "isAutoSelectFirstResult": false,
-        "isUseCurrentLoation": false
-      },
-      "id": "widget_261",
-      "useUtilities": [],
-      "outputDataSources": [],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-1973374268b-layer-272",
-          "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-1973374268b-layer-272",
-          "rootDataSourceId": "dataSource_22",
-          "fields": [
-            "AssetNum",
-            "Current_Location",
-            "Unnamed__0",
-            "Latitude",
-            "Longitude",
-            "wrrl_num"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742689-layer-271",
-          "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742689-layer-271",
-          "rootDataSourceId": "dataSource_22",
-          "fields": [
-            "AssetNum",
-            "Current_Location",
-            "Latitude",
-            "Longitude"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742688-layer-270",
-          "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742688-layer-270",
-          "rootDataSourceId": "dataSource_22",
-          "fields": [
-            "AssetNum",
-            "Current_Location",
-            "Latitude",
-            "Longitude"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742687-layer-269",
-          "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742687-layer-269",
-          "rootDataSourceId": "dataSource_22",
-          "fields": [
-            "AssetNum",
-            "Current_Location",
-            "Longitude",
-            "Latitude"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742686-layer-268",
-          "mainDataSourceId": "dataSource_22-1959fa3aca1-layer-166-19733742538-layer-267-19733742686-layer-268",
-          "rootDataSourceId": "dataSource_22",
-          "fields": [
-            "AssetNum",
-            "Current_Location",
-            "Latitude",
-            "Longitude"
-          ]
-        }
-      ],
-      "inControllerUx": "offPanel"
     },
     "widget_263": {
       "uri": "widgets/common/filter/",
@@ -24387,17 +23772,29 @@
       "id": "widget_293",
       "useDataSources": []
     },
-    "widget_294": {
+    "widget_295": {
       "uri": "widgets/common/embed/",
       "version": "1.20.0",
-      "label": "Gallatin Corridor Plan",
+      "label": "MT/WY Coop Trailers",
       "config": {
         "embedType": "url",
-        "expression": "<p>https://whitewaterrescue.github.io/wri-response-viewer/gallatin-plan/</p>",
+        "expression": "<p>https://script.google.com/macros/s/AKfycbyw6ykeQGZM7dcJfRsJKhD1m0DYh0F8dFzE2Jlp_ft3jbWTlNsiEU8mqP_aWAMi2MUNLg/exec</p>",
         "enableLabel": false
       },
-      "id": "widget_294",
+      "id": "widget_295",
+      "useDataSourcesEnabled": false,
       "useDataSources": []
+    },
+    "widget_296": {
+      "uri": "widgets/common/menu/",
+      "version": "1.20.0",
+      "label": "Menu MTWY",
+      "config": {
+        "type": "nav",
+        "vertical": false,
+        "menuStyle": "pills"
+      },
+      "id": "widget_296"
     }
   },
   "widgetsManifest": {},
@@ -25012,272 +24409,7 @@
       "closeWhenClickOverlay": true
     }
   },
-  "messageConfigs": {
-    "messageConfig_1": {
-      "id": "messageConfig_1",
-      "widgetId": "widget_256",
-      "messageType": "DATA_RECORD_SET_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_233-showOnMap-1748965960294_for_search_map_centric",
-          "widgetId": "widget_233",
-          "messageWidgetId": "widget_256",
-          "actionName": "showOnMap",
-          "description": null,
-          "config": {
-            "isUseCustomSymbol": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1
-                }
-              }
-            },
-            "isOperationalLayer": true
-          },
-          "version": "1.17.0"
-        }
-      ]
-    },
-    "messageConfig_2": {
-      "id": "messageConfig_2",
-      "widgetId": "widget_256",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_233-zoomToFeature-1748965960299_for_search_map_centric",
-          "widgetId": "widget_233",
-          "messageWidgetId": "widget_256",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": null,
-            "useDataSources": [],
-            "goToInitialMapExtentWhenSelectionCleared": false,
-            "useAnyTriggerData": true
-          },
-          "version": "1.17.0"
-        }
-      ]
-    },
-    "messageConfig_3": {
-      "id": "messageConfig_3",
-      "widgetId": "widget_265",
-      "messageType": "DATA_RECORD_SET_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_192-showOnMap-1748966100729_for_search_map_centric",
-          "widgetId": "widget_192",
-          "messageWidgetId": "widget_265",
-          "actionName": "showOnMap",
-          "description": null,
-          "config": {
-            "isUseCustomSymbol": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1
-                }
-              }
-            },
-            "isOperationalLayer": true
-          },
-          "version": "1.17.0"
-        }
-      ]
-    },
-    "messageConfig_4": {
-      "id": "messageConfig_4",
-      "widgetId": "widget_265",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_192-zoomToFeature-1748966100734_for_search_map_centric",
-          "widgetId": "widget_192",
-          "messageWidgetId": "widget_265",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": null,
-            "useDataSources": [],
-            "goToInitialMapExtentWhenSelectionCleared": false,
-            "useAnyTriggerData": true
-          },
-          "version": "1.17.0"
-        }
-      ]
-    },
-    "messageConfig_7": {
-      "id": "messageConfig_7",
-      "widgetId": "widget_266",
-      "messageType": "DATA_RECORD_SET_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_152-showOnMap-1748966494964_for_search_map_centric",
-          "widgetId": "widget_152",
-          "messageWidgetId": "widget_266",
-          "actionName": "showOnMap",
-          "description": null,
-          "config": {
-            "isUseCustomSymbol": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1
-                }
-              }
-            },
-            "isOperationalLayer": true
-          },
-          "version": "1.17.0"
-        }
-      ]
-    },
-    "messageConfig_8": {
-      "id": "messageConfig_8",
-      "widgetId": "widget_266",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_152-zoomToFeature-1748966494968_for_search_map_centric",
-          "widgetId": "widget_152",
-          "messageWidgetId": "widget_266",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": null,
-            "useDataSources": [],
-            "goToInitialMapExtentWhenSelectionCleared": false,
-            "useAnyTriggerData": true
-          },
-          "version": "1.17.0"
-        }
-      ]
-    }
-  },
+  "messageConfigs": {},
   "attributes": {
     "portalUrl": "https://WRIEnviro.maps.arcgis.com",
     "isWebTier": false,
@@ -29840,13 +28972,7 @@
       "page_7": []
     },
     {
-      "page_8": []
-    },
-    {
-      "page_9": []
-    },
-    {
-      "page_10": []
+      "page_11": []
     }
   ],
   "timestamp": 1783484181774,
