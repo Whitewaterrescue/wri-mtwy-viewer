@@ -251,6 +251,12 @@
         "21": {
           "type": "WIDGET",
           "widgetId": "widget_292"
+        },
+        "22": {
+          "type": "WIDGET",
+          "widgetId": "widget_296",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -266,7 +272,8 @@
         "17",
         "19",
         "20",
-        "21"
+        "21",
+        "22"
       ]
     },
     "layout_7": {
@@ -3145,6 +3152,12 @@
           "widgetId": "widget_291",
           "bbox": {},
           "setting": {}
+        },
+        "14": {
+          "type": "WIDGET",
+          "widgetId": "widget_297",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -3156,7 +3169,8 @@
         "9",
         "10",
         "11",
-        "13"
+        "13",
+        "14"
       ]
     },
     "layout_58": {
@@ -23514,6 +23528,36 @@
       "id": "widget_295",
       "useDataSourcesEnabled": false,
       "useDataSources": []
+    },
+    "widget_296": {
+      "id": "widget_296",
+      "uri": "widgets/presentation-mode/",
+      "version": "1.0.0",
+      "label": "Presentation Mode",
+      "config": {
+        "clientName": "MT/WY Coop",
+        "mapKey": "response",
+        "serviceUrl": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WRI_Presentations/FeatureServer/0",
+        "portalUrl": "https://wrienviro.maps.arcgis.com"
+      },
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_297": {
+      "id": "widget_297",
+      "uri": "widgets/presentation-mode/",
+      "version": "1.0.0",
+      "label": "Presentation Mode (Wildfire)",
+      "config": {
+        "clientName": "MT/WY Coop",
+        "mapKey": "wildfire",
+        "serviceUrl": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WRI_Presentations/FeatureServer/0",
+        "portalUrl": "https://wrienviro.maps.arcgis.com"
+      },
+      "useMapWidgetIds": [
+        "widget_152"
+      ]
     }
   },
   "widgetsManifest": {},
