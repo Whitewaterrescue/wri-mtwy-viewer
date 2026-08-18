@@ -257,6 +257,12 @@
           "widgetId": "widget_296",
           "bbox": {},
           "setting": {}
+        },
+        "23": {
+          "type": "WIDGET",
+          "widgetId": "widget_298",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -273,7 +279,8 @@
         "19",
         "20",
         "21",
-        "22"
+        "22",
+        "23"
       ]
     },
     "layout_7": {
@@ -7517,6 +7524,10 @@
             "widget_292": {
               "width": 1200,
               "height": 800
+            },
+            "widget_298": {
+              "width": 340,
+              "height": 460
             }
           },
           "arrangement": "floating"
@@ -23557,6 +23568,23 @@
       },
       "useMapWidgetIds": [
         "widget_152"
+      ]
+    },
+    "widget_298": {
+      "id": "widget_298",
+      "uri": "widgets/arcgis/measurement/",
+      "version": "1.20.0",
+      "label": "Measure",
+      "config": {
+        "enableDistance": true,
+        "defaultDistanceUnit": "imperial",
+        "enableArea": true,
+        "defaultAreaUnit": "acres",
+        "arrangement": "CLASSIC",
+        "disableSnapping": false
+      },
+      "useMapWidgetIds": [
+        "widget_1"
       ]
     }
   },
