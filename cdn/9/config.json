@@ -263,6 +263,12 @@
           "widgetId": "widget_298",
           "bbox": {},
           "setting": {}
+        },
+        "24": {
+          "type": "WIDGET",
+          "widgetId": "widget_299",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -280,7 +286,8 @@
         "20",
         "21",
         "22",
-        "23"
+        "23",
+        "24"
       ]
     },
     "layout_7": {
@@ -7528,6 +7535,10 @@
             "widget_298": {
               "width": 340,
               "height": 460
+            },
+            "widget_299": {
+              "width": 380,
+              "height": 620
             }
           },
           "arrangement": "floating"
@@ -23582,6 +23593,31 @@
         "defaultAreaUnit": "acres",
         "arrangement": "CLASSIC",
         "disableSnapping": false
+      },
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_299": {
+      "id": "widget_299",
+      "uri": "widgets/downgradient/",
+      "version": "1.0.0",
+      "label": "Downgradient",
+      "config": {
+        "radiiM": [
+          5,
+          15,
+          50
+        ],
+        "samplesPerRing": 16,
+        "flatPct": 1,
+        "noiseFactor": 3,
+        "minDemPixelsAcross": 2,
+        "consistentDeg": 15,
+        "scaleDependentDeg": 45,
+        "arrowLengthPx": 78,
+        "units": "imperial",
+        "ditchScaleM": 10
       },
       "useMapWidgetIds": [
         "widget_1"
