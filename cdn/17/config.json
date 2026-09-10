@@ -23439,7 +23439,13 @@
         "corridors": [
           "https://whitewaterrescue.github.io/wri-response-viewer/corridors/brunette-river.json",
           "https://whitewaterrescue.github.io/wri-response-viewer/corridors/fraser-main-arm.json"
-        ]
+        ],
+        "wrrlLayer": {
+          "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WRI_WRRL_Resources/FeatureServer/0",
+          "maxDistanceMi": 250,
+          "maxRows": 25,
+          "excludeOrgs": []
+        }
       },
       "id": "widget_290",
       "useMapWidgetIds": [
