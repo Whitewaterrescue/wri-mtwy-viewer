@@ -1352,10 +1352,36 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_301",
+          "bbox": {
+            "left": "0px",
+            "right": "0px",
+            "top": "0px",
+            "bottom": "0px",
+            "width": "1px",
+            "height": "1px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_34": {
@@ -2232,12 +2258,38 @@
               "bottom": true
             }
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_301",
+          "bbox": {
+            "left": "0px",
+            "right": "0px",
+            "top": "0px",
+            "bottom": "0px",
+            "width": "1px",
+            "height": "1px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "type": "FIXED",
       "label": "Second",
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_43": {
@@ -2702,12 +2754,38 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_301",
+          "bbox": {
+            "left": "0px",
+            "right": "0px",
+            "top": "0px",
+            "bottom": "0px",
+            "width": "1px",
+            "height": "1px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "type": "FIXED",
       "label": "Second",
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_53": {
@@ -23659,6 +23737,18 @@
         "detourFactor": 1.3
       },
       "id": "widget_300",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_301": {
+      "id": "widget_301",
+      "uri": "widgets/wri-map-guard/",
+      "version": "1.0.0",
+      "label": "Map Guard",
+      "config": {
+        "releaseOnHide": false
+      },
       "useMapWidgetIds": [
         "widget_1"
       ]
