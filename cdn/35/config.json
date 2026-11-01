@@ -11068,7 +11068,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbzZoQ7nHZsCAZqF9fnKFt4Xv-JMmjl_eoalCDozuYHQem8KBRsOj412K0z7lm4Hc0JS/exec?page=v2-ics201",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=ops&page=v2-ics201",
             "expression": null
           },
           "text": "ICS 201",
@@ -11263,7 +11263,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbzZoQ7nHZsCAZqF9fnKFt4Xv-JMmjl_eoalCDozuYHQem8KBRsOj412K0z7lm4Hc0JS/exec?page=v2-request",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=ops&page=v2-request",
             "expression": null
           }
         },
@@ -11346,7 +11346,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbyGYl4oZQSWQC5K5rqSxyyG9vaRcbE7W_c1Ef_zGeNOJqhczf85Poq9XI8aAFXt2lo/exec",
+            "value": "https://whitewaterrescue.github.io/wri-logistics/",
             "expression": null
           }
         },
@@ -11387,7 +11387,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbzZoQ7nHZsCAZqF9fnKFt4Xv-JMmjl_eoalCDozuYHQem8KBRsOj412K0z7lm4Hc0JS/exec?page=v2",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=ops&page=v2",
             "expression": null
           }
         },
@@ -23359,7 +23359,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbytFBip-cbr-ohGpVGFoFBQ3spMLCswlbP26B4Syw0rrDs_x2hO4FqpdFzR6Mb3h9Ke/exec?page=v2",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=ops&page=v2",
             "expression": null
           }
         },
@@ -23467,7 +23467,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbzsxpfqbV7di4yTHRiTr7bg-RwojLuesrLhPoaFVM8foedbzhxMMyC-lPcBPPyLtjtm/exec?role=wri_icp",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=rm&role=wri_icp",
             "expression": null
           }
         },
@@ -23683,7 +23683,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbzsxpfqbV7di4yTHRiTr7bg-RwojLuesrLhPoaFVM8foedbzhxMMyC-lPcBPPyLtjtm/exec?role=wri_icp",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=rm&role=wri_icp",
             "expression": null
           }
         },
